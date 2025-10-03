@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Premium Dark Theme - ZeroScreen */
+    --background: 230 45% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 230 40% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 230 40% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Neon Accents */
+    --primary: 190 100% 50%; /* Turquoise neon */
+    --primary-foreground: 230 45% 6%;
+    
+    --secondary: 270 70% 65%; /* Purple neon */
+    --secondary-foreground: 230 45% 6%;
+
+    --muted: 230 30% 20%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 270 70% 65%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 230 30% 18%;
+    --input: 230 30% 18%;
+    --ring: 190 100% 50%;
+
+    --radius: 1rem;
+
+    /* Premium Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(230 45% 8%) 0%, hsl(250 40% 12%) 50%, hsl(270 35% 10%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(230 40% 12% / 0.4) 0%, hsl(250 35% 15% / 0.2) 100%);
+    --gradient-neon: linear-gradient(135deg, hsl(190 100% 50%) 0%, hsl(270 70% 65%) 100%);
+    
+    /* Glow Effects */
+    --glow-primary: 0 0 20px hsl(190 100% 50% / 0.5), 0 0 40px hsl(190 100% 50% / 0.3);
+    --glow-secondary: 0 0 20px hsl(270 70% 65% / 0.5), 0 0 40px hsl(270 70% 65% / 0.3);
+    --glow-featured: 0 0 30px hsl(190 100% 50% / 0.6), 0 0 60px hsl(270 70% 65% / 0.4);
+    
+    /* Glassmorphism */
+    --glass-bg: hsl(230 40% 15% / 0.3);
+    --glass-border: hsl(210 40% 98% / 0.1);
+
+    /* Sidebar (keeping original for compatibility) */
+    --sidebar-background: 230 40% 10%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 190 100% 50%;
+    --sidebar-primary-foreground: 230 45% 6%;
+    --sidebar-accent: 230 35% 15%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 230 30% 18%;
+    --sidebar-ring: 190 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
