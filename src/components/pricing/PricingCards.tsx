@@ -17,7 +17,7 @@ export const pricingPlans = [
   },
   {
     name: "Premium",
-    price: "$9.99",
+    price: "100 KR",
     period: "/month",
     description: "För avancerade användare",
     features: [
@@ -32,7 +32,7 @@ export const pricingPlans = [
   },
   {
     name: "Family Bundle",
-    price: "$24.99",
+    price: "250 KR",
     period: "/month",
     description: "Populärast",
     features: [

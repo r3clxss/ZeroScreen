@@ -144,18 +144,18 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <div className="animate-float backdrop-blur-xl bg-gradient-card border border-glass-border rounded-2xl p-8">
               <div className="text-6xl mb-4">📊</div>
-              <h3 className="text-xl font-semibold mb-2">Real-time Stats</h3>
-              <p className="text-muted-foreground">Visualize your digital habits</p>
+              <h3 className="text-xl font-semibold mb-2">Statistik i realtid</h3>
+              <p className="text-muted-foreground">Visualisera dina digitala vanor</p>
             </div>
             <div className="animate-float backdrop-blur-xl bg-gradient-card border border-glass-border rounded-2xl p-8" style={{ animationDelay: "0.5s" }}>
               <div className="text-6xl mb-4">🔔</div>
-              <h3 className="text-xl font-semibold mb-2">Smart Notifications</h3>
-              <p className="text-muted-foreground">Gentle reminders at the right time</p>
+              <h3 className="text-xl font-semibold mb-2">Smarta aviseringar</h3>
+              <p className="text-muted-foreground">Milda påminnelser vid rätt tidpunkt</p>
             </div>
             <div className="animate-float backdrop-blur-xl bg-gradient-card border border-glass-border rounded-2xl p-8" style={{ animationDelay: "1s" }}>
               <div className="text-6xl mb-4">🎯</div>
-              <h3 className="text-xl font-semibold mb-2">Goal Tracking</h3>
-              <p className="text-muted-foreground">Achieve your wellness targets</p>
+              <h3 className="text-xl font-semibold mb-2">Målspårning</h3>
+              <p className="text-muted-foreground">Nå dina hälsomål</p>
             </div>
           </div>
         </div>
